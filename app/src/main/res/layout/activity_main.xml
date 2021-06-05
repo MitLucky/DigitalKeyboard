@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/name"
+        android:textSize="55sp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"/>
+
+   <TextView
+       android:id="@+id/Text2"
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:gravity="end|bottom"
+       android:text="@string/sum"
+       android:textSize="37sp"
+       android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="end|bottom"
+        android:text="поле для ответа"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+
+    <include
+        layout="@layout/activity_main_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+</LinearLayout>
