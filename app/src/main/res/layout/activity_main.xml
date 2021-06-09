@@ -18,7 +18,7 @@
         android:gravity="center"/>
 
    <TextView
-       android:id="@+id/Text2"
+       android:id="@+id/resultField"
        android:layout_width="match_parent"
        android:layout_height="150dp"
        android:gravity="end|bottom"
@@ -27,11 +27,18 @@
        android:textColor="@color/black"/>
 
     <TextView
-        android:id="@+id/editTextNumber"
+        android:id="@+id/operationField"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:gravity="end|bottom"
-        android:text="поле для ответа"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+    
+    <EditText
+        android:id="@+id/numberField"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="end|bottom"
         android:textSize="30sp"
         android:textColor="@color/black"/>
 
