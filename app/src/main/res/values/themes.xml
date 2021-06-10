@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.DigitalKeyboard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.DigitalKeyboard" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/design_default_color_background</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -13,4 +13,27 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    
+    <style name="MyStyle1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="android:textStyle">italic</item>
+        <item name="background">@color/cardview_light_background</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="MyStyle2"  parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">55sp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <style name="MyStyle3"  parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">end</item>
+    </style>
+
 </resources>
